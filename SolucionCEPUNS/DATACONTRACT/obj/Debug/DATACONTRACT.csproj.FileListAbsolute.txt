@@ -1,0 +1,5 @@
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\DATACONTRACT\bin\Debug\DATACONTRACT.dll
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\DATACONTRACT\bin\Debug\DATACONTRACT.pdb
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\DATACONTRACT\obj\Debug\DATACONTRACT.csprojResolveAssemblyReference.cache
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\DATACONTRACT\obj\Debug\DATACONTRACT.dll
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\DATACONTRACT\obj\Debug\DATACONTRACT.pdb

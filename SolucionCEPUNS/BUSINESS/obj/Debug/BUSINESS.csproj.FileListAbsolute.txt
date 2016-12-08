@@ -1,0 +1,5 @@
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\BUSINESS\bin\Debug\BUSINESS.dll
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\BUSINESS\bin\Debug\BUSINESS.pdb
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\BUSINESS\obj\Debug\BUSINESS.csprojResolveAssemblyReference.cache
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\BUSINESS\obj\Debug\BUSINESS.dll
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\BUSINESS\obj\Debug\BUSINESS.pdb

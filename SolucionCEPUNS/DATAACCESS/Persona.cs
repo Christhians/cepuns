@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DATAACCESS
 {
-    public class Class1
+    class Persona
     {
     }
 }

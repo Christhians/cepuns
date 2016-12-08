@@ -1,0 +1,5 @@
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\DATAACCESS\bin\Debug\DATAACCESS.dll
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\DATAACCESS\bin\Debug\DATAACCESS.pdb
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\DATAACCESS\obj\Debug\DATAACCESS.csprojResolveAssemblyReference.cache
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\DATAACCESS\obj\Debug\DATAACCESS.dll
+C:\Users\Christhiansch\Documents\Repositorios\cepuns\SolucionCEPUNS\DATAACCESS\obj\Debug\DATAACCESS.pdb

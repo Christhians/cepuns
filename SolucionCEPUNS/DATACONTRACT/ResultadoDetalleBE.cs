@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DATACONTRACT
 {
-    public class Class1
+   public class ResultadoDetalleBE
     {
-
+        public int identResultadoDetalle { get; set; }
     }
 }
