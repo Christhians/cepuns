@@ -8,9 +8,16 @@ namespace DATACONTRACT
 {
     public class AsignaturaBE
     {
-        public int identAsignatura { get; set; }
-        public String descripcion { get; set; }
-        public TipoPreguntaBE identTipoPregunta { get; set; }
+        public int IdentAsignatura { get; set; }
+        public TipoPreguntaBE IdentTipoPregunta { get; set; }       
+        public String Descripcion { get; set; }
+        public ParametroBE EstadoRegistro { get; set; }
+        public UsuarioBE UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public UsuarioBE UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
+
+        
 
     }
 }

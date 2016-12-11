@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace DATACONTRACT
 {
-   public  class ClaveBE
+    public class CicloBE
     {
-        public int IdentClave{ get; set; }
-        public PreguntaBE IdentPregunta { get; set; }
-        public ParametroBE ClaveCorrecta { get; set; }
+        public int IdentCiclo { get; set; }
+        public String Nombre { get; set; }
         public ParametroBE EstadoRegistro { get; set; }
         public UsuarioBE UsuarioCreador { get; set; }
-        public DateTime? FechaCreacion { get; set; }
         public UsuarioBE UsuarioModificacion { get; set; }
-        public DateTime? FechaModificacion { get; set; }
     }
 }

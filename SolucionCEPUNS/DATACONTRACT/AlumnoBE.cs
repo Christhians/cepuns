@@ -8,11 +8,16 @@ namespace DATACONTRACT
 {
     public class AlumnoBE
     {
-        public int identAlumno { get; set;}
-        public PersonaBE identPersona { get; set; }
-        public String ptroTipoAlumno { get; set; }
-        public UsuarioBE identUsuario { get; set; }
-        public String ptroER { get; set; }
+        public int IdentAlumno { get; set;}
+        public PersonaBE Persona { get; set; }
+        public UsuarioBE IdentUsuario { get; set; }
+        public String Codigo { get; set; }
+        public ParametroBE TipoAlumno { get; set; }        
+        public ParametroBE EstadoRegistro { get; set; }
+        public UsuarioBE UsuarioCreador { get; set;}
+        public DateTime? FechaCreacion { get; set; }
+        public UsuarioBE UsuarioModificador { get; set; }
+        public DateTime? FechaModificacion { get; set; }
 
     }
 }

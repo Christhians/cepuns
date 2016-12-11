@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace DATACONTRACT
 {
-    public class ParametroBE
+    public class RolUsuarioBE
     {
-        public int IdentParametro { get; set; }
+        public int IdentRol { get; set; }
         public String Descripcion { get; set; }
-        public ParametroTipoBE IdentParametroTipo { get; set; }
-        public String Abreviatura { get; set; }
-        public Boolean Activo { get; set; }
+        public ParametroBE EstadoRegistro { get; set; }
         public UsuarioBE UsuarioCreador { get; set; }
         public DateTime? FechaCreacion { get; set; }
         public UsuarioBE UsuarioModificacion { get; set; }

@@ -8,16 +8,19 @@ namespace DATACONTRACT
 {
     public class PersonaBE
     {
-        public int identPersona { get; set; }
-        public int nroDocumento { get; set; }
-        public String nombre { get; set; }
-        public String paterno { get; set; }
-        public String materno { get; set; }
-        public String direccion { get; set; }
-        public int telefono { get; set; }
-        public String correo { get; set; }
-        public String ptroER { get; set; }
-
+        public int IdentPersona { get; set; }
+        public int NroDocumento { get; set; }
+        public String Nombre { get; set; }
+        public String Paterno { get; set; }
+        public String Materno { get; set; }
+        public String Direccion { get; set; }
+        public String Telefono { get; set; }
+        public String Correo { get; set; }
+        public ParametroBE EstadoRegistro { get; set; }
+        public UsuarioBE UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public UsuarioBE UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
 
     }
 }

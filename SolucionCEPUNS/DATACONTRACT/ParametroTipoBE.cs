@@ -8,10 +8,14 @@ namespace DATACONTRACT
 {
     public class ParametroTipoBE
     {
-        public int identParametroTipo {  get; set; }
-        public String descripcion { get; set; }
-        public String abreviatura { get; set; }
-        public Boolean activo { get; set; }
-        public Boolean flagEditable { get; set; }
+        public int IdentParametroTipo {  get; set; }
+        public String Descripcion { get; set; }
+        public String Abreviatura { get; set; }
+        public Boolean Activo { get; set; }
+        public Boolean FlagEditable { get; set; }
+        public UsuarioBE UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public UsuarioBE UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
     }
 }

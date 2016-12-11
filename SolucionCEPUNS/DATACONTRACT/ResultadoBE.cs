@@ -8,11 +8,19 @@ namespace DATACONTRACT
 {
    public class ResultadoBE
     {
-        public int identResultado { get; set; }
+        public int IdentResultado { get; set; }
+        public ExamenBE IdentExamen { get; set; }
+        public AlumnoBE IdentAlumno { get; set; }
         public decimal PuntajeConocimiento { get; set; }
-            public decimal PuntajeRazonamiento { get; set; }
-        public ExamenBE identExamen { get; set; }
-        public AlumnoBE identAlumno { get; set; }
+        public decimal PuntajeRazonamiento { get; set; }
+        public decimal PuntajeTotal { get; set; }
+        public ParametroBE EstadoRegistro { get; set; }
+        public UsuarioBE UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public UsuarioBE UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
+
+
 
     }
 }

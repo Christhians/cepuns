@@ -8,8 +8,13 @@ namespace DATACONTRACT
 {
     public class UsuarioBE
     {
-        public int identUsuario { get; set; }
+        public int IdentUsuario { get; set; }
         public String cuenta { get; set; }
         public String password { get; set; }
+        public ParametroBE EstadoRegistro { get; set; }
+        public UsuarioBE UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public UsuarioBE UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
     }
 }

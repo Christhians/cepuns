@@ -9,9 +9,14 @@ namespace DATACONTRACT
     public class EscuelaBE
 
     {
-        public int identEscuelas { get; set; }
-        public String nombre { get; set; }
-        public GrupoBE identGrupo { get; set; }
+        public int IdentEscuela { get; set; }
+        public GrupoBE IdentGrupo { get; set; }
+        public String Nombre { get; set; }
+        public ParametroBE EstadoRegistro { get; set; }
+        public UsuarioBE UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public UsuarioBE UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
 
     }
 }
