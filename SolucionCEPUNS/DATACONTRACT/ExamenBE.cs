@@ -9,8 +9,8 @@ namespace DATACONTRACT
    public  class ExamenBE
     {
         public int IdentExamen { get; set; }
-        public CicloBE IdentCiclo { get; set; }
-        public GrupoBE IdentGrupo { get; set; }        
+        public CicloBE Ciclo { get; set; }
+        public GrupoBE Grupo { get; set; }        
         public DateTime? FechaExamen { get; set; }
         public String NombreExamen { get; set; }
         public String ExamenPDF { get; set; }     

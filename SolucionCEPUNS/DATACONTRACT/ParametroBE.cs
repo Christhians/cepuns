@@ -10,7 +10,7 @@ namespace DATACONTRACT
     {
         public int IdentParametro { get; set; }
         public String Descripcion { get; set; }
-        public ParametroTipoBE IdentParametroTipo { get; set; }
+        public ParametroTipoBE ParametroTipo { get; set; }
         public String Abreviatura { get; set; }
         public Boolean Activo { get; set; }
         public UsuarioBE UsuarioCreador { get; set; }

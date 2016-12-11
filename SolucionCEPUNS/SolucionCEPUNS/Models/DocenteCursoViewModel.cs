@@ -11,10 +11,15 @@ namespace SolucionCEPUNS.Models
         //
         // GET: /DocenteCursoViewModel/
 
-        public int identDocenteCurso { get; set; }
-        public int identDocente { get; set; }
-        public int identCurso { get; set; }
-        public int identAperturaCurso { get; set; }
+        public int IdentDocenteCurso { get; set; }
+        public int Docente { get; set; }
+        public int IdentCurso { get; set; }
+        public int AperturaCurso { get; set; }
+        public int EstadoRegistro { get; set; }
+        public int UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public int UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
 
     }
 }

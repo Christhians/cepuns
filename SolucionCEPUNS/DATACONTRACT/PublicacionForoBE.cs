@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DATACONTRACT
 {
-    public class PublicacionForo
+    public class PublicacionForoBE
     {
         public int IdentPublicacionForo { get; set; }
         public UsuarioBE UsuarioPublico { get; set; }

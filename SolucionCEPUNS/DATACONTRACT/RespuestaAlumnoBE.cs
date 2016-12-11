@@ -9,8 +9,8 @@ namespace DATACONTRACT
    public  class RespuestaAlumnoBE
     {
         public int IdentRespuestaAlumno { get; set; }
-        public AlumnoBE IdentAlumno { get; set; }
-        public PreguntaBE IdentPregunta { get; set; }
+        public AlumnoBE Alumno { get; set; }
+        public PreguntaBE Pregunta { get; set; }
         public ParametroBE ClaveMarcada { get; set; }
         public ParametroBE EstadoRegistro { get; set; }
         public UsuarioBE UsuarioCreador { get; set; }

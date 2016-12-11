@@ -9,8 +9,8 @@ namespace DATACONTRACT
    public class ResultadoBE
     {
         public int IdentResultado { get; set; }
-        public ExamenBE IdentExamen { get; set; }
-        public AlumnoBE IdentAlumno { get; set; }
+        public ExamenBE Examen { get; set; }
+        public AlumnoBE Alumno { get; set; }
         public decimal PuntajeConocimiento { get; set; }
         public decimal PuntajeRazonamiento { get; set; }
         public decimal PuntajeTotal { get; set; }

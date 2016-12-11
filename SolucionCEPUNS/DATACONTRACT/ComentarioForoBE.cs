@@ -9,7 +9,7 @@ namespace DATACONTRACT
   public   class ComentarioForoBE
     {
         public int IdentComentarioForo { get; set; }       
-        public UsuarioBE IdentUsuarioComenta { get; set; }
+        public UsuarioBE UsuarioComenta { get; set; }
         public PublicacionForoBE Publicacion { get; set; }
         public String Comentario { get; set; }
         public ParametroBE EstadoRegistro { get; set; }

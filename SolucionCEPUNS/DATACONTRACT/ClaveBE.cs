@@ -9,7 +9,7 @@ namespace DATACONTRACT
    public  class ClaveBE
     {
         public int IdentClave{ get; set; }
-        public PreguntaBE IdentPregunta { get; set; }
+        public PreguntaBE Pregunta { get; set; }
         public ParametroBE ClaveCorrecta { get; set; }
         public ParametroBE EstadoRegistro { get; set; }
         public UsuarioBE UsuarioCreador { get; set; }

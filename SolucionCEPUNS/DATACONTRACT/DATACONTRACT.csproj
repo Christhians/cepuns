@@ -47,6 +47,9 @@
     <Compile Include="EntidadBE.cs" />
     <Compile Include="ModuloBE.cs" />
     <Compile Include="PersonaBE.cs" />
+    <Compile Include="PublicacionForoBE.cs" />
+    <Compile Include="RolBE.cs" />
+    <Compile Include="RolUsuarioBE.cs" />
     <Compile Include="UsuarioBE.cs" />
     <Compile Include="ExamenBE.cs" />
     <Compile Include="PreguntaBE.cs" />

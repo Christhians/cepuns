@@ -9,8 +9,8 @@ namespace DATACONTRACT
     public class EmpleadoBE
     {
         public int IdentEmpleado { get; set; }
-        public PersonaBE IdentPersona { get; set; }        
-        public UsuarioBE identUsuario { get; set; }
+        public PersonaBE Persona { get; set; }        
+        public UsuarioBE Usuario { get; set; }
         public String Codigo { get; set; }
         public ParametroBE CargoEmpleado { get; set; }
         public ParametroBE EstadoRegistro { get; set; }

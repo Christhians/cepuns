@@ -11,8 +11,13 @@ namespace SolucionCEPUNS.Models
         //
         // GET: /GrupoViewModel/
 
-        public int identGrupo { get; set; }
+        public int IdentGrupo { get; set; }
         public String NombreGrupo { get; set; }
+        public int EstadoRegistro { get; set; }
+        public int UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public int UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
 
     }
 }

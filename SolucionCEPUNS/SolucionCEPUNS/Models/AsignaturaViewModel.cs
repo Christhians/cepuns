@@ -8,10 +8,15 @@ namespace SolucionCEPUNS.Models
 {
     public class AsignaturaViewModel 
     {
+        public int IdentAsignatura { get; set; }
+        public int TipoPregunta { get; set; }
+        public String Descripcion { get; set; }
+        public int EstadoRegistro { get; set; }
+        public int UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public int UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
 
-        public int identAsignatura { get; set; }
-        public String descripcion { get; set; }
-        public int identTipoPregunta { get; set; }
 
     }
 }

@@ -11,10 +11,14 @@ namespace SolucionCEPUNS.Models
         //
         // GET: /ComentarioForoViewModel/
 
-        public int identComentarioForo { get; set; }
-        public String ComentarioForo { get; set; }
-        public DateTime? FechaComentarioForo { get; set; }
-        public int identPreguntaForo { get; set; }
-        public int identUsuario { get; set; }
+        public int IdentComentarioForo { get; set; }
+        public int UsuarioComenta { get; set; }
+        public int Publicacion { get; set; }
+        public String Comentario { get; set; }
+        public int EstadoRegistro { get; set; }
+        public int UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public int UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
     }
 }

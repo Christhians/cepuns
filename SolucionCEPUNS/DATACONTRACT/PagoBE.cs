@@ -9,7 +9,7 @@ namespace DATACONTRACT
     public class PagoBE
     {
         public int IdentPago { get; set; }
-        public PersonaBE IdentPersona { get; set; }
+        public PersonaBE Persona { get; set; }
         public ParametroBE ConceptoPago { get; set; }
         public String NumeroVoucher { get; set; }
         public decimal MontoPago { get; set; }

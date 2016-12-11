@@ -170,13 +170,14 @@
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\AlumnoViewModel.cs" />
-    <Compile Include="Models\AperturaCicloViewModel.cs" />
+    <Compile Include="Models\CicloViewModel.cs" />
     <Compile Include="Models\AsignaturaViewModel.cs" />
     <Compile Include="Models\ClaveViewModel.cs" />
     <Compile Include="Models\ComentarioForoViewModel.cs" />
     <Compile Include="Models\DocenteCursoViewModel.cs" />
     <Compile Include="Models\DocenteViewModel.cs" />
     <Compile Include="Models\EmpleadoViewModel.cs" />
+    <Compile Include="Models\EntidadViewModel.cs" />
     <Compile Include="Models\EscuelaViewModel.cs" />
     <Compile Include="Models\ExamenViewModel.cs" />
     <Compile Include="Models\GrupoViewModel.cs" />
@@ -186,9 +187,12 @@
     <Compile Include="Models\PersonaViewModel.cs" />
     <Compile Include="Models\PreguntaForoViewModel.cs" />
     <Compile Include="Models\PreguntaViewModel.cs" />
+    <Compile Include="Models\PublicacionForoViewModels.cs" />
     <Compile Include="Models\RespuestaAlumnoViewModel.cs" />
     <Compile Include="Models\ResultadoDetalleViewModel.cs" />
     <Compile Include="Models\ResultadoViewModel.cs" />
+    <Compile Include="Models\RolUsuarioViewModels.cs" />
+    <Compile Include="Models\RolViewModels.cs" />
     <Compile Include="Models\TipoPreguntaViewModel.cs" />
     <Compile Include="Models\UsuarioViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

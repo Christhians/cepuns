@@ -10,7 +10,7 @@ namespace DATACONTRACT
 
     {
         public int IdentEscuela { get; set; }
-        public GrupoBE IdentGrupo { get; set; }
+        public GrupoBE Grupo { get; set; }
         public String Nombre { get; set; }
         public ParametroBE EstadoRegistro { get; set; }
         public UsuarioBE UsuarioCreador { get; set; }

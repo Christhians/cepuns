@@ -9,7 +9,7 @@ namespace DATACONTRACT
     public class DocenteBE
     {
         public int IdentDocente { get; set; }
-        public PersonaBE IdentPersona { get; set; }
+        public PersonaBE Persona { get; set; }
         public UsuarioBE Usuario { get; set; }
         public String Codigo { get; set; }
         public ParametroBE EstadoRegistro { get; set; }

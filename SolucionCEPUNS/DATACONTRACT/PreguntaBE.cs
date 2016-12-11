@@ -9,7 +9,7 @@ namespace DATACONTRACT
      public class PreguntaBE
     {
         public int IdentPregunta { get; set; }
-        public ExamenBE IdentExamen { get; set; }
+        public ExamenBE Examen { get; set; }
         public String Descripcion { get; set; }        
         public TipoPreguntaBE IdentTipoPregunta { get; set; }
         public ParametroBE EstadoRegistro { get; set; }

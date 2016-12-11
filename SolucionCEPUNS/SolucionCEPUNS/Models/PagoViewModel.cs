@@ -11,12 +11,17 @@ namespace SolucionCEPUNS.Models
         //
         // GET: /PagoViewModel/
 
-        public int identPagos { get; set; }
-        public String ConceptoPago { get; set; }
+        public int IdentPago { get; set; }
+        public int Persona { get; set; }
+        public int ConceptoPago { get; set; }
         public String NumeroVoucher { get; set; }
         public decimal MontoPago { get; set; }
         public DateTime? fechaPago { get; set; }
-        public int identPersona { get; set; }
+        public int EstadoRegistro { get; set; }
+        public int UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public int UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
 
     }
 }

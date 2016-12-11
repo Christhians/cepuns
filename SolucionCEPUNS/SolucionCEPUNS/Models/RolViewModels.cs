@@ -6,21 +6,18 @@ using System.Web.Mvc;
 
 namespace SolucionCEPUNS.Models
 {
-    public class EmpleadoViewModel 
+    public class RolViewModels 
     {
         //
-        // GET: /EmpleadoViewModel/
-
-        public int IdentEmpleado { get; set; }
-        public int Persona { get; set; }
-        public int Usuario { get; set; }
-        public String Codigo { get; set; }
-        public int CargoEmpleado { get; set; }
+        // GET: /RolViewModels/
+        public int IdentRol { get; set; }
+        public String Descripcion { get; set; }
         public int EstadoRegistro { get; set; }
         public int UsuarioCreador { get; set; }
         public DateTime? FechaCreacion { get; set; }
         public int UsuarioModificacion { get; set; }
         public DateTime? FechaModificacion { get; set; }
+
 
     }
 }

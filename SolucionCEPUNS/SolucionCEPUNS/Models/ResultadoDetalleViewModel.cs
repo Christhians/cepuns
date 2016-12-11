@@ -11,7 +11,12 @@ namespace SolucionCEPUNS.Models
         //
         // GET: /ResultadoDetalleViewModel/
 
-        public int identResultadoDetalle { get; set; }
+        public int IdentResultadoDetalle { get; set; }
+        public int EstadoRegistro { get; set; }
+        public int UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public int UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
 
     }
 }
