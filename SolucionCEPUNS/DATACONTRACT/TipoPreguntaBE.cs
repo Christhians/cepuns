@@ -9,7 +9,7 @@ namespace DATACONTRACT
     public class TipoPreguntaBE
     {
         public int IdentTipoPregunta { get; set; }
-        public CicloBE AperturaCiclo { get; set; }
+        public CicloBE Ciclo { get; set; }
         public String Descrpcion { get; set; }
         public decimal PuntajeRespuestaCorrecta { get; set; }
         public decimal PuntajeRespuestaErronea{ get; set; }

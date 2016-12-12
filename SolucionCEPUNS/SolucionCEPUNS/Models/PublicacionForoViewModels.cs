@@ -11,7 +11,7 @@ namespace SolucionCEPUNS.Models
         //
         // GET: /PublicacionForoViewModels/
         public int IdentPublicacionForo { get; set; }
-        public int UsuarioPublico { get; set; }
+        public int UsuarioPublicador { get; set; }
         public String Titulo { get; set; }
         public String Descripcion { get; set; }
         public DateTime? FechaPublicacion { get; set; }

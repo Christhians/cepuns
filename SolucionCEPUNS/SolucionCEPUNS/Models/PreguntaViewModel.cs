@@ -11,10 +11,15 @@ namespace SolucionCEPUNS.Models
         //
         // GET: /PreguntaViewModel/
 
-        public int identPregunta { get; set; }
-        public String descripcion { get; set; }
-        public int identExamen { get; set; }
-        public int identTipoPregunta { get; set; }
+        public int IdentPregunta { get; set; }
+        public int Examen { get; set; }
+        public String Descripcion { get; set; }
+        public int IdentTipoPregunta { get; set; }
+        public int EstadoRegistro { get; set; }
+        public int UsuarioCreador { get; set; }
+        public DateTime? FechaCreacion { get; set; }
+        public int UsuarioModificacion { get; set; }
+        public DateTime? FechaModificacion { get; set; }
 
     }
 }

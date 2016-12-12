@@ -12,7 +12,7 @@ namespace DATACONTRACT
         public String tituloPreguntaForo { get; set; }
         public String descripcionPreguntaForo { get; set; }
         public DateTime? fechaPreguntaForo { get; set; }
-        public UsuarioBE identUsuario { get; set; }
+        public UsuarioBE UsuarioPublicador  { get; set; }
        
     }
 }

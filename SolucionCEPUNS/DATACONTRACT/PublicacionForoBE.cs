@@ -9,7 +9,7 @@ namespace DATACONTRACT
     public class PublicacionForoBE
     {
         public int IdentPublicacionForo { get; set; }
-        public UsuarioBE UsuarioPublico { get; set; }
+        public UsuarioBE UsuarioPublicador { get; set; }
         public String Titulo { get; set; }
         public String Descripcion { get; set; }
         public DateTime? FechaPublicacion { get; set; }

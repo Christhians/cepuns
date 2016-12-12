@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace DATACONTRACT
 {
-    public class DoncenteCursoBE
+    public class CursoBE
     {
-        public int IdentDocenteCurso{ get; set; }
-        public DocenteBE Docente { get; set; }
-        public int IdentCurso { get; set; }
-        public AperturaCursoBE AperturaCurso { get; set; }
-        public ParametroBE EstadoRegistro { get; set; }
+        public int IdentCursoBE { get; set; }
+        public String Nombre { get; set; }
         public UsuarioBE UsuarioCreador { get; set; }
         public DateTime? FechaCreacion { get; set; }
         public UsuarioBE UsuarioModificacion { get; set; }

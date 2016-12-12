@@ -6,17 +6,13 @@ using System.Web.Mvc;
 
 namespace SolucionCEPUNS.Models
 {
-    public class TipoPreguntaViewModel 
+    public class AperturaCursoViewModel 
     {
         //
-        // GET: /TipoPreguntaViewModel/
-
-        public int IdentTipoPregunta { get; set; }
+        // GET: /AperturaCursoViewModel/
+        public int IdentAperturaCurso { get; set; }
+        public int Curso { get; set; }
         public int Ciclo { get; set; }
-        public String Descrpcion { get; set; }
-        public decimal PuntajeRespuestaCorrecta { get; set; }
-        public decimal PuntajeRespuestaErronea { get; set; }
-        public int EstadoRegistro { get; set; }
         public int UsuarioCreador { get; set; }
         public DateTime? FechaCreacion { get; set; }
         public int UsuarioModificacion { get; set; }

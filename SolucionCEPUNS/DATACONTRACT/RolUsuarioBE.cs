@@ -9,6 +9,8 @@ namespace DATACONTRACT
     public class RolUsuarioBE
     {
         public int IdentRol { get; set; }
+        public RolBE Rol { get; set; }
+        public UsuarioBE Usuario { get; set; }
         public String Descripcion { get; set; }
         public ParametroBE EstadoRegistro { get; set; }
         public UsuarioBE UsuarioCreador { get; set; }

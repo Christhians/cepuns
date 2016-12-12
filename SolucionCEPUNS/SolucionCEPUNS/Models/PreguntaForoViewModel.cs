@@ -15,6 +15,6 @@ namespace SolucionCEPUNS.Models
         public String tituloPreguntaForo { get; set; }
         public String descripcionPreguntaForo { get; set; }
         public DateTime? fechaPreguntaForo { get; set; }
-        public int identUsuario { get; set; }
+        public int UsuarioPublicador { get; set; }
     }
 }
